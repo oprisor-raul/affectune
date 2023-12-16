@@ -5,13 +5,14 @@ import getEmotionNumber from "../utils/getEmotionNumber";
 import { getSongRecommandation } from "../api/api";
 import DisclaimerText from "../components/texts/DisclaimerText";
 import DefaultText from "../components/texts/DefaultText";
-import SongDetails from "../components/song/SongInfo";
+import SongDetails from "../components/song/SongDetails";
 import renderStars from "../components/song/rederStars";
-import DefaultButton from "../components/Button";
+import DefaultButton from "../components/DefaultButton";
 import SmallText from "../components/texts/SmallText";
 import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RootStackParamList } from "../App";
+import useSoundPlayer from "../utils/playSound";
 
 type SongScreenNavigationProp = StackNavigationProp<RootStackParamList, "Song">;
 
@@ -39,6 +40,8 @@ const SongScreen = ({ route }) => {
     }
   };
 
+  const playChangeSongSound = useSoundPlayer(require("../sounds/shuffle.mp3"));
+
   useEffect(() => {
     if (!songData) {
       sendRequest();
@@ -63,7 +66,10 @@ const SongScreen = ({ route }) => {
       </View>
       <DefaultButton
         title="Switch it up"
-        onPress={sendRequest}
+        onPress={() => {
+          playChangeSongSound();
+          sendRequest();
+        }}
         style={defaultStyles.wideButton}
       />
       <DisclaimerText>Did we change your mood?</DisclaimerText>

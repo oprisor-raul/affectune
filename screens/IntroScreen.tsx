@@ -4,7 +4,7 @@ import Logo from "../components/Logo";
 import DisclaimerText from "../components/texts/DisclaimerText";
 import SmallText from "../components/texts/SmallText";
 import DefaultText from "../components/texts/DefaultText";
-import DefaultButton from "../components/Button";
+import DefaultButton from "../components/DefaultButton";
 import defaultStyles from "../styles";
 import { StatusBar } from "expo-status-bar";
 

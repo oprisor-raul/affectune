@@ -2,7 +2,7 @@ import React from "react";
 import { View, Image, StyleSheet, Dimensions } from "react-native";
 import defaultStyles from "../../styles";
 import Logo from "../Logo";
-import DefaultButton from "../Button";
+import DefaultButton from "../DefaultButton";
 
 const screenWidth = Dimensions.get("window").width;
 

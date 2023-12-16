@@ -5,7 +5,7 @@ import getEmotionNumber from "../utils/getEmotionNumber";
 import DefaultText from "../components/texts/DefaultText";
 import DisclaimerText from "../components/texts/DisclaimerText";
 import defaultStyles from "../styles";
-import DefaultButton from "../components/Button";
+import DefaultButton from "../components/DefaultButton";
 import { useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../App";
 import { StackNavigationProp } from "@react-navigation/stack";
