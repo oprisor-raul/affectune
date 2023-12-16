@@ -9,7 +9,7 @@ import DefaultText from "../components/texts/DefaultText";
 import defaultStyles from "../styles";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RootStackParamList } from "../App";
-import { sendPhoto } from "../api";
+import { sendPhoto } from "../api/api";
 
 type CameraScreenNavigationProp = StackNavigationProp<
   RootStackParamList,

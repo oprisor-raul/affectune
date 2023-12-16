@@ -1,5 +1,4 @@
-import config from "./config/config";
-import getEmotionNumber from "./utils/getEmotionNumber";
+import config from "../config/config";
 
 export async function sendPhoto(photo) {
   try {

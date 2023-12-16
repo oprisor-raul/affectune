@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, Dimensions } from "react-native";
-import { responsiveFontSize } from "../../utils/ui/responsiveFontSize";
+import { responsiveFontSize } from "../../utils/responsiveFontSize";
 const { width, height } = Dimensions.get("window");
 
 const DisclaimerText = ({ children }) => (

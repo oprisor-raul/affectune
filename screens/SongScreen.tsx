@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
 import defaultStyles from "../styles";
 import getEmotionNumber from "../utils/getEmotionNumber";
-import { getSongRecommandation } from "../api";
+import { getSongRecommandation } from "../api/api";
 import DisclaimerText from "../components/texts/DisclaimerText";
 import DefaultText from "../components/texts/DefaultText";
 import SongDetails from "../components/song/SongInfo";

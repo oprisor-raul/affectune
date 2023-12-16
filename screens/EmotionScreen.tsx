@@ -10,7 +10,7 @@ import { useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../App";
 import { StackNavigationProp } from "@react-navigation/stack";
 import EmojiiImage from "../components/EmojiImage";
-import { getSongRecommandation } from "../api";
+import { getSongRecommandation } from "../api/api";
 
 type SuccessScreenNavigationProp = StackNavigationProp<
   RootStackParamList,

@@ -1,11 +1,7 @@
 import React from "react";
-import { StyleSheet, Text, Dimensions, View, Image } from "react-native";
-import { responsiveFontSize } from "../../utils/ui/responsiveFontSize";
+import { StyleSheet, Text, View, Image } from "react-native";
 import DefaultText from "../texts/DefaultText";
 import replaceDateCharacters from "../../utils/replaceDateCharacters";
-import DisclaimerText from "../texts/DisclaimerText";
-
-const { width, height } = Dimensions.get("window");
 
 const SongDetails = (songData) => {
   let songDatResult = songData.songData.result;

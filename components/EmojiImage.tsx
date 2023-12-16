@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, StyleSheet } from "react-native";
-import getImageForEmotion from "../utils/ui/getImageForEmotion";
+import getImageForEmotion from "../utils/getImageForEmotion";
 
 interface EmojiiImageProps {
   emotion: string;
