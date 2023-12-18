@@ -45,6 +45,10 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm install
    ```
+3. Launch the App with Expo Go
+   ```sh
+   npx expo start
+   ```
 
 <!-- LICENSE -->
 ## License
