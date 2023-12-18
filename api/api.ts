@@ -1,4 +1,4 @@
-import config from "../config/config";
+import config from "../config";
 
 export async function sendPhoto(photo) {
   try {
