@@ -25,9 +25,23 @@ Tailored Song Recommendations: Following the emotion analysis, AffecTune offers 
 ### Endless Discoveries
 Continual Exploration: The experience extends beyond a single song. You're encouraged to re-engage, delving deeper into your emotional landscape through music, with each session revealing new facets of your mood.
 
-### Live Demo
+## Live Demo
+https://github.com/oprisor-raul/affectune/assets/99093377/2b95b81d-c786-4d64-b09a-4f29306b3d9d
 
-### Screenshots
+
+
+## Screenshots
+
+### Introduction 
+![Introduction  image](https://github.com/oprisor-raul/affectune/blob/main/screenshots/introduction.PNG)
+### Photo Capture 
+![Photo Capture image](https://github.com/oprisor-raul/affectune/blob/main/screenshots/photo-capture.PNG)
+### Photo Review Screen
+![Photo Review image](https://github.com/oprisor-raul/affectune/blob/main/screenshots/photo-review.PNG)
+### Emotional Insight
+![Emotional Insight image](https://github.com/oprisor-raul/affectune/blob/main/screenshots/emotional-insight.PNG)
+### Personalized Music Therapy
+![Personalized Music Therapy image](https://github.com/oprisor-raul/affectune/blob/main/screenshots/personalized-music.PNG)
 
 ### Built With
 This project is crafted from the ground up with React Native.
